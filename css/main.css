@@ -1,0 +1,37 @@
+.logo img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.nav-inline {
+    display: flex;
+}
+
+.nav-inline li {
+    flex: 1;
+}
+
+.navigation-list a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    border-bottom: 1px solid #cccccc;
+}
+
+.blockProduct {
+    max-width: 200px;
+    background-color: #cccccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.upperBlock img {
+    max-width: 100%;
+}
+
+.footer {
+    min-height: 200px;
+    background-color: #cccccc;
+}
