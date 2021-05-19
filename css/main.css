@@ -11,6 +11,10 @@
     flex: 1;
 }
 
+.nav-inline img {
+    max-width: 20px;
+}
+
 .navigation-list a {
     text-decoration: none;
     color: inherit;
@@ -34,4 +38,26 @@
 .footer {
     min-height: 200px;
     background-color: #cccccc;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.busket {
+    position: relative;
+}
+
+.busket p {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    line-height: 18px;
+    right: -10px;
+    bottom: -25px;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    border-radius: 50%;
 }
